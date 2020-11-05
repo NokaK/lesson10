@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1313px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+	background-color: pink;
+/*	height: 200px;*/
+/*	overflow-x: hidden;*/
+}
+.input-form {
+	width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: red;
+    border-radius: 20px;
+    border-color: red;
+    margin: 10px 0 0;
+}
+.form-content {
+	margin: 15px 0 0;
+}
+input:focus, textarea:focus, button:focus {
+	 border-radius: 20px;
+	 border-color: blue;
+	 outline: none;
+}
+textarea {
+	resize: none;
+	height: 200px;
+}
+button {
+	background: none;
+    background-color: yellow;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>lesson 10</title>
+</head>
+<body>
+	<div class="container">
+		<form>
+			<div class="form-content">
+				<label for="name">შეიყვანეთ სახელი</label>
+				<input type="text" name="name" id="name" class="input-form" placeholder="შეიყვანეთ სახელი" required>
+			</div>
+			<div  class="form-content">
+				<label for="lastname">შეიყვანეთ გვარი</label>
+				<input type="text" name="lastname" id="lastname" class="input-form" placeholder="შეიყვანეთ გვარი" required >
+			</div>
+			<div  class="form-content">
+				<label for="number"> შეიყვანეთ ნომერი</label>
+				<input type="number" name="number" id="number" class="input-form" 
+				placeholder="5XX XXX XXX" required>
+			</div>
+			<div  class="form-content">
+				<label for="email">შეიყვანეთ ელ ფოსტა</label>
+				<input type="email" name="email" id="email" class="input-form" 
+				placeholder="შეიყვანეთ ელ ფოსტა" required>
+			</div>
+			<div  class="form-content">
+				<label for="personal-number">შეიყვანეთ პირადი ნომერი</label>
+				<input type="number" name="personal-number" id="personal-number" class="input-form" placeholder="შეიყვანეთ პირადი ნომერი" required max="9" min="4">
+			</div>
+			<div  class="form-content">
+				<label for="password">შეიყვანეთ პაროლი</label>
+				<input type="password" name="password" id="password" class="input-form" placeholder="შეიყვანეთ პაროლი" required>
+			</div>
+			<div  class="form-content">
+				<h3> აირჩიეთ მიმართულება</h3>
+				<div>
+					<input type="checkbox" name="checkbox" id="checkbox" >
+					<label for="checkbox">მუსიკა</label>
+				</div>
+				<div>
+					<input type="checkbox" name="checkbox2" id="checkbox1" >
+					<label for="checkbox1">ცეკვა</label>
+				</div>
+				<div>
+					<input type="checkbox" name="checkbox2" id="checkbox2" >
+					<label for="checkbox2">ხატვა</label>
+				</div>
+			</div>
+			<div  class="form-content">
+				<h3>აირჩიეთ სქესი</h3>
+				<div>
+					<input type="radio" name="gender" id="female" required>
+					<label for="female">ქალი</label>
+				</div>
+				<div>
+					<input type="radio" name="gender" id="male" required>
+					<label for="male">კაცი</label>
+				</div>
+			</div>
+			<div  class="form-content">
+				<label for="comment">დატოვეთ კომენტარი</label>
+				<textarea name="comment" id="comment" placeholder="დატოვეთ კომენტარი" class="input-form"></textarea>
+			</div>
+			<div  class="form-content">
+				<button>რეგისტრაცია</button>
+			</div>
+			
+		</form>
+	</div>
+
+</body>
+</html>
